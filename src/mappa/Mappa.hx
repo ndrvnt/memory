@@ -43,7 +43,7 @@ class Mappa {
 	public function selezionati(tile:Tile) {
 		if (this.selezionatoUno == null) {
 			this.selezionatoUno = tile;
-			tile.rilevare();
+			tile.rivelare();
 			return;
 		}
 		if (this.selezionatoUno == tile) {
@@ -51,7 +51,7 @@ class Mappa {
 		}
 		if (this.selezionatoDue == null) {
 			this.selezionatoDue = tile;
-			this.selezionatoDue.rilevare();
+			this.selezionatoDue.rivelare();
 		}
 
 		if (this.selezionatoUno != null) {

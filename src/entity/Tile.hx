@@ -42,7 +42,7 @@ class Tile extends h2d.Object {
 		}
 	}
 
-	public function rilevare() {
+	public function rivelare() {
 		this.cover.alpha = 0;
 	}
 
